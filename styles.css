@@ -1,0 +1,52 @@
+* {
+    font-family: 'DM Sans', 'sans-serif';
+    background-color: #F9CEEE;
+    cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>❤️</text></svg>") 16 0,auto;
+}
+
+/* Header */
+
+#welcome-section {
+    padding: 5% 0;
+}
+
+.white {
+    color: white;
+}
+
+.header-padding {
+    padding: 1% 0;
+}
+
+/* Explainer */
+
+#explainer span {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-bottom: 1px;
+}
+
+#explainer span a {
+    
+    color: white;
+}
+
+/* Form Frame */
+
+#form-frame {
+    padding-top: 10% 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 420px) {
+    #welcome-section {
+        padding: 5% 12%;
+    }
+
+    .header-content p {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+}

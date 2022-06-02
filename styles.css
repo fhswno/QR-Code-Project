@@ -22,9 +22,10 @@
 
 #explainer span {
     background-color: red;
-    padding: 5px 10px;
+    padding: 8px 12px;
     border-radius: 20px;
     margin-bottom: 1px;
+    font-size: 1.6rem;
 }
 
 #explainer span a {
